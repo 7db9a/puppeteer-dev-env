@@ -1,16 +1,21 @@
 # puppeteer-dev-env
 
+My puppeteer development environment.
+
 ## Setup
 
-From the root of the project:
+**Build puppeteer image:**
 
-```
-docker build -t puppeteer docker/docker-puppeteer
-docker build -t puppeteer-renderer .
-```
+`docker build -t puppeteer docker/docker-puppeteer`
 
-docker-puppeteer and puppeteer-renderer are git submodules.
+docker-puppeteer is a third-party git submodule.
 
-Start the service:
+**Build puppeteer-renderer image:**
+
+`docker build -t puppeteer-renderer .`
+
+I use the Dockerfile in the current directory and not from the submodule puppeteer-renderer's Dockerfile because I want to directly use the original docker-puppeter Dockerfile.
+
+**Start up the renderer**
 
 `docker-compose up`
