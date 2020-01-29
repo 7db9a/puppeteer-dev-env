@@ -3,14 +3,7 @@ version: "3"
 services:
   renderer:
     image: puppeteer-renderer:latest
-    #working_dir: /app/puppeteer-renderer
-    #command: npm install --quiet
-    #command: npm run start
     ports:
       - 8080:3000
     expose:
       - "3000"
-    #volumes:
-    #  - ../:/app
-    stop_grace_period: 10m
-    tty: true
