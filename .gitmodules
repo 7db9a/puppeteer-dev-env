@@ -1,0 +1,3 @@
+[submodule "puppeteer-renderer"]
+	path = puppeteer-renderer
+	url = https://github.com/zenato/puppeteer-renderer
