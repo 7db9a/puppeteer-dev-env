@@ -2,20 +2,13 @@
 
 My puppeteer development environment.
 
-## Setup
+```
+git clone https://github.com/7db9a/puppeteer-dev-env
+docker build -t puppeteer docker/docker-puppeteer
+docker build -t puppeteer-renderer .
+docker-compose up
+```
 
-**Build puppeteer image:**
+docker-puppeteer and puppeter-renderer are third-party git submodules.
 
-`docker build -t puppeteer docker/docker-puppeteer`
-
-docker-puppeteer is a third-party git submodule.
-
-**Build puppeteer-renderer image:**
-
-`docker build -t puppeteer-renderer .`
-
-I use the Dockerfile in the current directory and not from the submodule puppeteer-renderer's Dockerfile because I want to directly use the original docker-puppeter Dockerfile.
-
-**Start up the renderer**
-
-`docker-compose up`
+***I use the Dockerfile in the project's root dir for the puppeteer-renderer build because I want to directly use the original docker-puppeter Dockerfile.***
