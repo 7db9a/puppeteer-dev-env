@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  puppeteer-dev-env:
+    image: zenato/puppeteer
+    command: npm run start
+    hostname: puppeteer-dev-env
+    ports:
+      - 8080:3000
+    expose:
+      - "3000"
+    volumes:
+      - ../:/app
+    stop_grace_period: 10m
+    tty: true
+
+volumes:
+ puppeteer-dev-env:
