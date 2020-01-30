@@ -12,5 +12,3 @@ services:
     command: bash -c "npm install --quiet && npm run start"
     volumes:
       - ./:/app
-volumes:
- puppeteer-renderer-data-volume:
