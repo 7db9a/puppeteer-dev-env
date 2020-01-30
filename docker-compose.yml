@@ -7,6 +7,7 @@ services:
       - 8080:3000
     expose:
       - "3000"
+    user: root
     working_dir: /app/puppeteer-renderer
     command: bash -c "npm install --quiet && npm run start"
     volumes:
