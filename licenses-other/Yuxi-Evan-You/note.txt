@@ -1,0 +1,12 @@
+The source code in this repository at commit 8428c4f072bf53571240357c8bbc0e582303b5ae is "79b9a's Code".
+
+Yuxi (Evan) You's source code at commit d3e3136ff722267583fa84b3981135bca9c08cc9 is "You's Code".
+
+7db9a Code has copies or modifications of You's Code for:
+
+- package.json
+- package-lock.json.
+
+At the time of the creation of this note, You's Code was found at https://github.com/zenato/puppeteer-renderer.
+
+7db9a's Code includes the MIT License found in You's Code.
