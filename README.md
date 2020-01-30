@@ -5,6 +5,7 @@ My puppeteer development environment.
 ```
 git clone https://github.com/7db9a/puppeteer-dev-env
 docker build -t puppeteer docker-puppeteer
+docker build -t puppeteer-renderer .
 docker volume create puppeteer-renderer-data-volume
 docker-compose up
 ```
