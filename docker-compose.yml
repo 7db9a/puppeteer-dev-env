@@ -10,7 +10,6 @@ services:
     working_dir: /app/puppeteer-renderer
     command: bash -c "npm install --quiet && npm run start"
     volumes:
-      - puppeteer-renderer-data-volume:/app
+      - ./:/app
 volumes:
  puppeteer-renderer-data-volume:
-   external: true
