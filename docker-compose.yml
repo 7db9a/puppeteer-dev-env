@@ -9,6 +9,6 @@ services:
       - "3000"
     user: root
     working_dir: /app
-    command: bash -c "npm install --quiet && node examples/screenshot-full.js"
+    command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
     volumes:
       - ./:/app
