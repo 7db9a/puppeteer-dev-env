@@ -9,7 +9,18 @@ services:
       - "3000"
     user: root
     working_dir: /app
-    command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
-    #command: bash -c "npm install --quiet && node examples/screenshot.js"
+
+    # Examples: I suggest uncommenting only one command.
+    #################################################################
+    #
+    # screenshot
+    command: bash -c "npm install --quiet && node examples/screenshot.js"
+    #
+    # screenshot-fullpage
+    #command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
+    #
+    #################################################################
+
+
     volumes:
       - ./:/app
