@@ -2,7 +2,8 @@
 
 My puppeteer development environment.
 
-**Get started:**
+
+## Getting started
 
 ```
 git clone https://github.com/7db9a/puppeteer-dev-env
@@ -11,7 +12,7 @@ docker build -t puppeteer-renderer .
 docker-compose up
 ```
 
-**Update after you make a code change**
+Recreate the container after you make a code change:
 
 ```
 docker-compose up --force-recreate
