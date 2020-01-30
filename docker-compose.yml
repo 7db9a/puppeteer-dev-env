@@ -10,7 +10,7 @@ services:
     user: root
     working_dir: /app
 
-    # Examples: I suggest uncommenting only one command.
+    # Examples: uncomment a single command at a time.
     #################################################################
     #
     # screenshot
