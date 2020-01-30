@@ -7,11 +7,10 @@ services:
       - 8080:3000
     expose:
       - "3000"
-    command: npm install --quiet
-    command: npm run start
+    working_dir: /app/puppeteer-renderer
+    command: bash -c "npm install --quiet && npm run start"
     volumes:
       - puppeteer-renderer-data-volume:/app/puppeteer-renderer
-
 volumes:
  puppeteer-renderer-data-volume:
    external: true
