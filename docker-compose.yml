@@ -2,7 +2,7 @@ version: "3"
 
 services:
   renderer:
-    image: docker-puppeteer:latest
+    image: puppeteer:latest
     ports:
       - 8080:3000
     expose:
