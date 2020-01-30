@@ -10,5 +10,6 @@ services:
     user: root
     working_dir: /app
     command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
+    #command: bash -c "npm install --quiet && node examples/screenshot.js"
     volumes:
       - ./:/app
