@@ -1,0 +1,13 @@
+The source code in this repository at commit 8c7040f6d2c907c515964e5ce97d35e093911481 is "79b9a's Code".
+
+Checkly's source code at commit c21d1cae325c6fc196429469a6b0480e4524f30e is "Checkly's Code".
+
+7db9a Code has copies or modifications of Checkly's Code for:
+
+- examples/get_list_of_links.js
+
+At the time of the creation of this note, Checkly's Code was found at https://github.com/checkly/puppeteer-examples/1. basics/get_text_value.js
+
+7db9a's Code includes the Apache License found in Checkly's Code.
+
+7db9a was unable to find an implemented Apache License in the repository that the code came from. A best effort was made to credit Checkly's Code.
