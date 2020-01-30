@@ -19,6 +19,9 @@ services:
     # screenshot-fullpage
     #command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
     #
+    # get_text_value
+    #command: bash -c "npm install --quiet && node examples/get_text_value.js"
+    #
     #################################################################
 
 
