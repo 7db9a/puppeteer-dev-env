@@ -11,17 +11,15 @@ cd puppeteer-dev-env
 docker build -t puppeteer docker-puppeteer
 ```
 
-**Run default example:**
+**Run an example:**
 
 `docker-compose up`
 
-It screenshots example.com and outputs `screenshot.png`.
+By default, it screenshots example.com and outputs `screenshot.png`.
 
-**Run a different example:**
+To run a different example, uncomment an alternative command in `docker-compose.yml` and try again.
 
-Uncomment an alternate `command` in `docker-compose.yml` and run `docker-compose up`, again.
-
-**Recreate the container after making code changes:**
+**After a code (non-docker related) change:**
 
 `docker-compose up --force-recreate`
 
