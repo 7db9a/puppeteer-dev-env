@@ -7,6 +7,7 @@ My puppeteer development environment.
 
 ```
 git clone https://github.com/7db9a/puppeteer-dev-env
+cd puppeteer-dev-env
 docker build -t puppeteer docker-puppeteer
 docker-compose up
 ```
