@@ -25,6 +25,9 @@ services:
     # get_text_value_2
     #command: bash -c "npm install --quiet && node examples/get_text_value_2.js"
     #
+    # get_list_of_links
+    #command: bash -c "npm install --quiet && node examples/get_list_of_links.js"
+    #
     #################################################################
 
     volumes:
