@@ -31,7 +31,7 @@ async function launch(options = {}) {
   const browser = await launch();
   const page = await browser.newPage();
   await page.emulate(devices['iPhone 6']);
-  await page.goto('https://scrapethissite.com/');
+  await page.goto('https://example.com/');
   await page.screenshot({path: 'screenshot-fullpage.png', fullPage: true});
   await browser.close();
 })();

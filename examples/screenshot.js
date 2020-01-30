@@ -30,7 +30,7 @@ async function launch(options = {}) {
 (async() => {
   const browser = await launch();
   const page = await browser.newPage();
-  await page.goto('https://scrapethissite.com/');
+  await page.goto('https://example.com/');
   await page.screenshot({path: 'screenshot.png'});
   await browser.close();
 })();
