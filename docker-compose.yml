@@ -14,7 +14,7 @@ services:
     #################################################################
     #
     # screenshot
-    command: bash -c "npm install --quiet && node examples/screenshot.js"
+    #command: bash -c "npm install --quiet && node examples/screenshot.js"
     #
     # screenshot-fullpage
     #command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
@@ -32,6 +32,9 @@ services:
     #command: bash -c "npm install --quiet && node examples/crawlsite.js"
     #
     #################################################################
+
+    # Prevent container from exiting (hackish) after program exits.
+    #command: tail -F not-a-file
 
     volumes:
       - ./:/app
