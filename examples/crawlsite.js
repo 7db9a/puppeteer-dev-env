@@ -161,12 +161,19 @@ async function crawl(browser, page, depth = 0) {
   }
 }
 
+async function launch(options = {}) {
+  const browser = await puppeteer.launch(
+    Object.assign({args: ['--no-sandbox']}, options)
+  )
+  return browser
+}
+
 (async() => {
 
 mkdirSync(OUT_DIR); // create output dir if it doesn't exist.
 await del([`${OUT_DIR}/*`]); // cleanup after last run.
 
-const browser = await puppeteer.launch();
+const browser = await launch();
 const page = await browser.newPage();
 if (VIEWPORT) {
   await page.setViewport(VIEWPORT);
