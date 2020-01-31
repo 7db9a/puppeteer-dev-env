@@ -28,6 +28,9 @@ services:
     # get_list_of_links
     #command: bash -c "npm install --quiet && node examples/get_list_of_links.js"
     #
+    # crawlsite
+    #command: bash -c "npm install --quiet && node examples/crawlsite.js"
+    #
     #################################################################
 
     volumes:
