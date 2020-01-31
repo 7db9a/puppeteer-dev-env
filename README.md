@@ -11,16 +11,36 @@ cd puppeteer-dev-env
 docker build -t puppeteer docker-puppeteer
 ```
 
-**Run an example:**
+**Run first default example:**
 
 `docker-compose up`
 
-By default, it screenshots example.com and outputs `screenshot.png`.
+It screenshots example.com and outputs screenshot.png. To run other examples, see [Examples](#examples).
 
-To run a different example, uncomment an alternative command in `docker-compose.yml` and try again.
+## Development
 
-**After a code (non-docker related) change:**
+Recreate the container after a code change:
 
 `docker-compose up --force-recreate`
 
 The host's project directory is mounted to the container, per `docker-compose.yml` instructions.
+
+## Examples
+
+To run an example, uncomment the specific command in `docker-compose.yml` and then
+
+`docker-compose up`
+
+**[1. get_text_value](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_text_value.js)**
+
+**[2. get_list_of_links](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_list_of_links.js)**
+
+**[3. get_text_value_2](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_text_value_2.js)**
+
+**[4. screenshot](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
+
+**[5. screenshot-fullpage](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
+
+**[6. crawlsite](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/crawlsite.js)**
+
+**Example 1 - 5** are were borrowed from [Checkly](https://github.com/checkly/puppeteer-examples/blob/c21d1cae325c6fc196429469a6b0480e4524f30e/1.%20basics/get_text_value.js) and **Example 6** is from [Puppeteer](https://github.com/puppeteer/examples/tree/59355609ecb3c2e396a289b28f34d5116fc89b8e). The examples were modified to run in docker.
