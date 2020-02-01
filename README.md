@@ -11,7 +11,7 @@ cd puppeteer-dev-env
 docker build -t puppeteer docker-puppeteer
 ```
 
-**Run first default example:**
+**Run an example:**
 
 `docker-compose up`
 
