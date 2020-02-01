@@ -27,9 +27,7 @@ The host's project directory is mounted to the container, per `docker-compose.ym
 
 ## Examples
 
-To run an example, uncomment the specific command in `docker-compose.yml` and then
-
-`docker-compose up`
+Uncomment an example in `docker-compose.yml` and then run `docker-compose up`.
 
 **[1. get_text_value](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_text_value.js)**
 
@@ -42,5 +40,3 @@ To run an example, uncomment the specific command in `docker-compose.yml` and th
 **[5. screenshot-fullpage](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
 
 **[6. crawlsite](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/crawlsite.js)**
-
-**Example 1 - 5** are were borrowed from [Checkly](https://github.com/checkly/puppeteer-examples/blob/c21d1cae325c6fc196429469a6b0480e4524f30e/1.%20basics/get_text_value.js) and **Example 6** is from [Puppeteer](https://github.com/puppeteer/examples/tree/59355609ecb3c2e396a289b28f34d5116fc89b8e). The examples were modified to run in docker.
