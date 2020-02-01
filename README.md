@@ -33,10 +33,8 @@ Uncomment an example in `docker-compose.yml` and then run `docker-compose up`.
 
 **[2. get_list_of_links](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_list_of_links.js)**
 
-**[3. get_text_value_2](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/get_text_value_2.js)**
+**[3. screenshot](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
 
-**[4. screenshot](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
+**[4. screenshot-fullpage](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
 
-**[5. screenshot-fullpage](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/screenshot.js)**
-
-**[6. crawlsite](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/crawlsite.js)**
+**[5. crawlsite](https://github.com/7db9a/puppeteer-dev-env/blob/master/examples/crawlsite.js)**
