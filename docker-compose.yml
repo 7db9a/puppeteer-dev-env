@@ -14,7 +14,7 @@ services:
     #################################################################
     #
     # screenshot
-    #command: bash -c "npm install --quiet && node examples/screenshot.js"
+    command: bash -c "npm install --quiet && node examples/screenshot.js"
     #
     # screenshot-fullpage
     #command: bash -c "npm install --quiet && node examples/screenshot-fullpage.js"
