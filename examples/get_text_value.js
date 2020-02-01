@@ -1,4 +1,13 @@
 /**
+ * This example was borrowed from
+ *
+ * https://github.com/checkly/puppeteer-examples/blob/c21d1cae325c6fc196429469a6b0480e4524f30e
+ *
+ *
+ * The example is modified to run in docker.
+ */
+
+/**
  * @name get text value of an element
  *
  * @desc Gets the text value of an element by using the page.$eval method

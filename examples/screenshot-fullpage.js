@@ -15,6 +15,15 @@
  * limitations under the License.
  */
 
+/**
+ * This example was borrowed from
+ *
+ * https://github.com/puppeteer/puppeteer/tree/9923e56b3ed05cde014c0047a4f65fef7749ebb0/examples
+ *
+ *
+ * The example is modified to run in docker.
+ */
+
 'use strict';
 
 const puppeteer = require('puppeteer');

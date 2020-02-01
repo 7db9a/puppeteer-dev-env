@@ -15,6 +15,15 @@
  * limitations under the License.
  */
 
+/**
+ * This example was borrowed from
+ *
+ * https://github.com/puppeteer/examples/tree/59355609ecb3c2e396a289b28f34d5116fc89b8e.
+ *
+ *
+ * The example is modified to run in docker.
+ */
+
  /**
   * Discovers all the pages in site or single page app (SPA) and creates
   * a tree of the result in ./output/<site slug/crawl.json. Optionally
